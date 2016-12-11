@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Hello, world</title>
+  <style>[v-cloak] { display:none }</style>
 </head>
 <body>
   <div id="app">
-    <my-message></my-message>
+    <my-task-list :list="task_list"></my-task-list>
   </div>
   <script type="text/javascript" src="./bundle.js"></script>
 </body>

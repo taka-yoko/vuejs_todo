@@ -1,5 +1,5 @@
 <template>
-  <p>{{message}}</p>
+  <p v-cloak>{{message}}</p>
 </template>
 
 <script>
