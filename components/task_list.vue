@@ -47,7 +47,7 @@ export default {
       if(result){
         var index = this.list.tasks.indexOf(task)
         this.list.tasks.splice(index, 1)
-        //this.list.save()
+        this.list.save()
       }
     }
   }
